@@ -177,11 +177,11 @@ public protocol WebAuth: Trackable, Loggable {
 
     /**
      Use `SFSafariViewController` instead of `SFAuthenticationSession` for WebAuth
-     in iOS 11.0+.
+     in iOS 8.0+.
 
      - returns: the same WebAuth instance to allow method chaining
      */
-    @available(iOS 11, *)
+    @available(iOS 8, *)
     func useLegacyAuthentication() -> Self
 
     /**
